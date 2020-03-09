@@ -1,0 +1,44 @@
+{
+  "name": "dss-web",
+  "version": "1.0.0",
+  "description": "Website for Dark Star Systems, Inc.",
+  "author": "Gary Oberbrunner",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest",
+    "precommit": "yarn lint",
+    "deploy": "deploy.sh"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "nuxt": "^2.0.0",
+    "vue-vimeo-player": "^0.1.0",
+    "vue-youtube": "^1.4.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/google-analytics": "^2.2.3",
+    "@nuxtjs/markdownit": "^1.2.9",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "jest": "^24.1.0",
+    "jest-transform-stub": "^2.0.0",
+    "markdown-it-attrs": "^3.0.2",
+    "markdown-it-style": "^1.0.0",
+    "nuxt-fontawesome": "^0.4.0",
+    "nuxt-responsive-loader": "^2.0.1",
+    "vue-jest": "^4.0.0-0"
+  }
+}
